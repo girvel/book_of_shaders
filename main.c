@@ -34,6 +34,7 @@ void shader_send(ShaderInfo *info) {
 
 int main(void) {
     InitWindow(800, 600, "Doing the Book of Shaders");
+    SetWindowState(FLAG_WINDOW_RESIZABLE);
 
     ShaderInfo shader_info = {0};
     while (!WindowShouldClose()) {
